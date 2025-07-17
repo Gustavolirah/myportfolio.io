@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo - Portfólio</title>
+    <meta name="description" content="Portfólio profissional de Gustavo Matias - Especialista em desenvolvimento e marketing digital">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <canvas id="space-background" class="space-background"></canvas>
+    <header class="header">
+        <div class="container">
+            <a href="#hero" class="logo">Gustavo Matias</a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </label>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#education">Educação</a></li>
+                    <li><a href="#courses">Aprendizado Contínuo</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <p class="hero-subtitle">
+                    <i class="fas fa-bolt"></i>
+                    Especialista em Soluções Digitais e Estratégias de Crescimento
+                </p>
+                <h1 class="hero-title">Gustavo Matias</h1>
+                <h2 class="hero-role">
+                    <i class="fas fa-rocket"></i>
+                    Desenvolvedor Full Stack & Gestor de Tráfego
+                </h2>
+                <p class="hero-description">
+                    Com uma sólida formação em Análise e Desenvolvimento de Sistemas, minha expertise abrange a criação de
+                    soluções full stack robustas e a execução de campanhas digitais de alta performance. Sou movido por
+                    resultados e pela capacidade de transformar dados em insights acionáveis, impulsionando o crescimento e a
+                    inovação.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/Gustavolirah" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://br.linkedin.com/in/gustavo-matias-66a860278" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:liragustavo718@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#experience" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Explorar Experiência
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-bolt"></i>
+                        Conectar
+                    </a>
+                </div>
+            </div>
+            <a href="#about" class="scroll-indicator">
+                <i class="fas fa-arrow-down"></i>
+            </a>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="section-bg-elements">
+                <span class="bg-emoji top-right">🌌</span>
+                <span class="bg-emoji bottom-left">✨</span>
+                <span class="bg-emoji top-left">🚀</span>
+                <span class="bg-emoji bottom-right">🛰️</span>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">🚀</div>
+                    <h2>Sobre Mim</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-image-wrapper">
+                        <img src="public/gustavo-graduation.jpeg" alt="Gustavo Matias - Graduation Photo" class="about-avatar">
+                        <div class="about-avatar-sparkle">⚡</div>
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            Sou um <strong class="text-cyan">explorador digital</strong> com formação em
+                            <strong class="text-purple">Análise e Desenvolvimento de Sistemas</strong> pela UNIP. Minha
+                            missão é atuar nas fronteiras do desenvolvimento full stack e das campanhas digitais, buscando sempre
+                            a inovação e a excelência.
+                        </p>
+                        <p>
+                            Com experiência prática, já liderei projetos que resultaram na
+                            <strong class="text-cyan">duplicação de conversões em 30 dias</strong> e desenvolvi sistemas
+                            complexos que otimizam processos e conectam diferentes plataformas. Minha paixão é transformar dados
+                            brutos em <strong class="text-purple">insights estratégicos e soluções eficientes</strong>.
+                        </p>
+                        <p>
+                            Atualmente, estou aprofundando meus conhecimentos em bancos de dados com o curso
+                            <strong class="text-blue">CS50's Introduction to Databases with SQL de Harvard</strong> e
+                            aprimorando minhas habilidades de comunicação em inglês para expandir minha atuação globalmente.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-highlights-grid">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">📈</div>
+                        <h3>Gestor de Tráfego</h3>
+                        <p>Duplicação de conversões em 30 dias através de estratégias digitais</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">💻</div>
+                        <h3>Desenvolvedor Full Stack</h3>
+                        <p>APIs robustas em C# que conectam sistemas como constelações</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">📊</div>
+                        <h3>Analista de Dados</h3>
+                        <p>Dashboards que revelam insights como telescópios espaciais</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">👥</div>
+                        <h3>Líder de Projetos</h3>
+                        <p>Metodologias ágeis para navegar projetos pelo cosmos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="section-bg-elements">
+                <span class="bg-emoji top-right">⚙️</span>
+                <span class="bg-emoji bottom-left">💡</span>
+                <span class="bg-emoji top-left">💻</span>
+                <span class="bg-emoji bottom-right">📊</span>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">🛠️</div>
+                    <h2>Habilidades</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        Ferramentas e competências para conquistar qualquer desafio 🌌
+                    </p>
+                </div>
+
+                <div class="skills-tools-grid">
+                    <h3><i class="fas fa-tachometer-alt"></i> Ferramentas e Tecnologias</h3>
+                    <div class="tools-grid">
+                        <div class="tool-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <span class="badge badge-purple">Frontend</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-code"></i>
+                            <span>TypeScript</span>
+                            <span class="badge badge-blue">Linguagem</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Azure</span>
+                            <span class="badge badge-blue">Cloud</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                            <span class="badge badge-orange">Frontend</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                            <span class="badge badge-blue">Frontend</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>C#</span>
+                            <span class="badge badge-purple">Backend</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <span class="badge badge-yellow">Linguagem</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-server"></i>
+                            <span>Next.js</span>
+                            <span class="badge badge-white">Framework</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>Tailwind CSS</span>
+                            <span class="badge badge-teal">CSS Framework</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL Server</span>
+                            <span class="badge badge-red">Database</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                            <span class="badge badge-orange">Database</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span>Git</span>
+                            <span class="badge badge-orange-dark">Version Control</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category-grid">
+                    <div class="skill-card">
+                        <h3><span class="icon">💻</span> Técnicas</h3>
+                        <div class="skill-list">
+                            <div class="skill-item-progress">
+                                <span class="skill-name">C# / .NET</span>
+                                <span class="skill-level">90%</span>
+                                <div class="progress-bar-container"><div class="progress-bar" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="skill-item-progress">
+                                <span class="skill-name">SQL Server</span>
+                                <span class="skill-level">85%</span>
+                                <div class="progress-bar-container"><div class="progress-bar" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill-item-progress">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">80%</span>
+                                <div class="progress-bar-container"><div class="progress-bar" style="width: 80%;"></div></div>
+                            </div>
+                            <div class="skill-item-progress">
+                                <span class="skill-name">Power BI</span>
+                                <span class="skill-level">85%</span>
+                                <div class="progress-bar-container"><div class="progress-bar" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill-item-progress">
+                                <span class="skill-name">APIs REST</span>
+                                <span class="skill-level">90%</span>
+                                <div class="progress-bar-container"><div class="progress-bar" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="skill-item-progress">
+                                <span class="skill-name">Visual Studio</span>
+                                <span class="skill-level">85%</span>
+                                <div class="progress-bar-container"><div class="progress-bar" style="width: 85%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3><span class="icon">🚀</span> Marketing</h3>
+                        <div class="skill-list">
+                            <div class="skill-item-progress">
+                                <span class="skill-name">Meta Ads</span>
+                                <span class="skill-level">95%</span>
+                                <div class="progress-bar-container"><div class="progress-bar" style="width: 95%;"></div></div>
+                            </div>
+                            <div class="skill-item-progress">
+                                <span class="skill-name">Google Ads</span>
+                                <span class="skill-level">85%</span>
+                                <div class="progress-bar-container"><div class="progress-bar" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill-item-progress">
+                                <span class="skill-name">CRM Management</span>
+                                <span class="skill-level">90%</span>
+                                <div class="progress-bar-container"><div class="progress-bar" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="skill-item-progress">
+                                <span class="skill-name">Data Analysis</span>
+                                <span class="skill-level">90%</span>
+                                <div class="progress-bar-container"><div class="progress-bar" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="skill-item-progress">
+                                <span class="skill-name">Campaign Optimization</span>
+                                <span class="skill-level">95%</span>
+                                <div class="progress-bar-container"><div class="progress-bar" style="width: 95%;"></div></div>
+                            </div>
+                            <div class="skill-item-progress">
+                                <span class="skill-name">Conversion Tracking</span>
+                                <span class="skill-level">85%</span>
+                                <div class="progress-bar-container"><div class="progress-bar" style="width: 85%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category-grid">
+                    <div class="skill-card">
+                        <h3><span class="icon">🧠</span> Competências</h3>
+                        <div class="badge-list">
+                            <span class="badge badge-blue-light">Liderança de Projetos</span>
+                            <span class="badge badge-blue-light">Metodologias Ágeis</span>
+                            <span class="badge badge-blue-light">Comunicação Eficaz</span>
+                            <span class="badge badge-blue-light">Trabalho em Equipe</span>
+                            <span class="badge badge-blue-light">Pensamento Crítico</span>
+                            <span class="badge badge-blue-light">Tomada de Decisão</span>
+                            <span class="badge badge-blue-light">Gestão de Tempo</span>
+                            <span class="badge badge-blue-light">Adaptação Rápida</span>
+                            <span class="badge badge-blue-light">Planejamento Estratégico</span>
+                            <span class="badge badge-blue-light">Criatividade</span>
+                            <span class="badge badge-blue-light">Gestão de Orçamento</span>
+                            <span class="badge badge-blue-light">Organização</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3><span class="icon">🌍</span> Idiomas</h3>
+                        <div class="language-list">
+                            <div class="language-item">
+                                <span class="language-name">Português</span>
+                                <span class="badge badge-green">Nativo</span>
+                            </div>
+                            <div class="language-item">
+                                <span class="language-name">Inglês</span>
+                                <span class="badge badge-green">Intermediário</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <div class="section-bg-elements">
+                <span class="bg-emoji top-left">🏢</span>
+                <span class="bg-emoji top-right">💼</span>
+                <span class="bg-emoji bottom-left">⚡</span>
+                <span class="bg-emoji bottom-right">🌌</span>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">🚀</div>
+                    <h2>Experiência</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        Jornada profissional através da tecnologia e marketing digital 🌌
+                    </p>
+                </div>
+
+                <div class="experience-list">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-icon">📈</div>
+                            <div class="experience-info">
+                                <h3 class="experience-position">Gestor de Tráfego</h3>
+                                <p class="experience-company">Hub Digital</p>
+                                <p class="experience-type">Agência de Marketing Digital</p>
+                            </div>
+                            <div class="experience-meta">
+                                <span class="experience-period"><i class="fas fa-calendar-alt"></i> 02/12/2024 – 14/04/2025</span>
+                                <span class="experience-location"><i class="fas fa-map-marker-alt"></i> Sorocaba, SP</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <h4><i class="fas fa-users"></i> Principais Conquistas:</h4>
+                            <ul>
+                                <li>Gestão e otimização do CRM, organizando dados de clientes e automatizando processos para melhorar relacionamento</li>
+                                <li>Análise de dados e dashboards avançados com Power BI e implementação de APIs em Python via Meta for Developers</li>
+                                <li>Liderança no desenvolvimento de campanhas, resultando na duplicação das conversões de comércios locais em 30 dias</li>
+                                <li>Vendas de imóveis, aumentando o fluxo de clientes para a imobiliária com dados armazenados no CRM Kenlo</li>
+                            </ul>
+                            <h4>Tecnologias:</h4>
+                            <div class="badge-list">
+                                <span class="badge badge-cyan-purple">Meta Ads</span>
+                                <span class="badge badge-cyan-purple">Google Ads</span>
+                                <span class="badge badge-cyan-purple">Power BI</span>
+                                <span class="badge badge-cyan-purple">Python</span>
+                                <span class="badge badge-cyan-purple">CRM</span>
+                                <span class="badge badge-cyan-purple">Data Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-icon">💻</div>
+                            <div class="experience-info">
+                                <h3 class="experience-position">Desenvolvedor Back-end</h3>
+                                <p class="experience-company">Naveguei (Autônomo)</p>
+                                <p class="experience-type">API de E-commerce</p>
+                            </div>
+                            <div class="experience-meta">
+                                <span class="experience-period"><i class="fas fa-calendar-alt"></i> Projeto E-commerce</span>
+                                <span class="experience-location"><i class="fas fa-map-marker-alt"></i> Remoto</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <h4><i class="fas fa-users"></i> Principais Conquistas:</h4>
+                            <ul>
+                                <li>API de um E-commerce desenvolvido em C# seguindo o modelo CRUD SQL Server</li>
+                                <li>Sistema para cadastro de produtos, usuários, e solicitação de recuperação de senha</li>
+                                <li>Integração com meios de pagamentos e setores logísticos</li>
+                                <li>Líder de projeto aplicando metodologia ágil para otimizar processos e garantir entregas contínuas</li>
+                                <li>Resolução de problemas de gestão manual, criando back-end robusto que automatizou processos</li>
+                            </ul>
+                            <h4>Tecnologias:</h4>
+                            <div class="badge-list">
+                                <span class="badge badge-cyan-purple">C#</span>
+                                <span class="badge badge-cyan-purple">SQL Server</span>
+                                <span class="badge badge-cyan-purple">Visual Studio</span>
+                                <span class="badge badge-cyan-purple">CRUD</span>
+                                <span class="badge badge-cyan-purple">Payment Integration</span>
+                                <span class="badge badge-cyan-purple">Agile</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-icon">🛸</div>
+                            <div class="experience-info">
+                                <h3 class="experience-position">Desenvolvedor Full Stack</h3>
+                                <p class="experience-company">Naveguei - Enactus</p>
+                                <p class="experience-type">Plataforma Educacional</p>
+                            </div>
+                            <div class="experience-meta">
+                                <span class="experience-period"><i class="fas fa-calendar-alt"></i> Em Desenvolvimento</span>
+                                <span class="experience-location"><i class="fas fa-map-marker-alt"></i> Remoto</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <h4><i class="fas fa-users"></i> Principais Conquistas:</h4>
+                            <ul>
+                                <li>API de cursos desenvolvido em C# utilizando modelo CRUD SQL Server</li>
+                                <li>Sistema para cadastro de cursos, usuários, quizzes e feedbacks</li>
+                                <li>Plataforma focada em empresas que acessam para disponibilizar aulas aos funcionários</li>
+                                <li>Líder de desenvolvimento aplicando metodologia Scrum para organizar sprints</li>
+                                <li>Desenvolvimento de plataforma completa (back-end e front-end) permitindo acesso seguro aos cursos</li>
+                            </ul>
+                            <h4>Tecnologias:</h4>
+                            <div class="badge-list">
+                                <span class="badge badge-cyan-purple">C#</span>
+                                <span class="badge badge-cyan-purple">SQL Server</span>
+                                <span class="badge badge-cyan-purple">Full Stack</span>
+                                <span class="badge badge-cyan-purple">Scrum</span>
+                                <span class="badge badge-cyan-purple">Corporate Training</span>
+                                <span class="badge badge-cyan-purple">UX/UI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education-section">
+            <div class="section-bg-elements">
+                <span class="bg-emoji top-left">🎓</span>
+                <span class="bg-emoji top-right">📚</span>
+                <span class="bg-emoji center">🌌</span>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">🎓</div>
+                    <h2>Educação</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-header">
+                        <div class="education-icon">🚀</div>
+                        <div class="education-info">
+                            <h3 class="education-title">Análise e Desenvolvimento de Sistemas</h3>
+                            <p class="education-institution">UNIP – Sorocaba</p>
+                            <span class="badge badge-green-check"><i class="fas fa-award"></i> Concluído ✅</span>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-skills-grid">
+                            <div>
+                                <h4>Principais Competências:</h4>
+                                <ul>
+                                    <li><span class="bullet bullet-cyan"></span>Desenvolvimento de Software 🛠️</li>
+                                    <li><span class="bullet bullet-cyan"></span>Banco de Dados e SQL 🗄️</li>
+                                    <li><span class="bullet bullet-cyan"></span>Análise de Sistemas 🔍</li>
+                                    <li><span class="bullet bullet-cyan"></span>Metodologias Ágeis ⚡</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>Áreas de Especialização:</h4>
+                                <ul>
+                                    <li><span class="bullet bullet-purple"></span>Programação Orientada a Objetos 🌟</li>
+                                    <li><span class="bullet bullet-purple"></span>Desenvolvimento Web 🌐</li>
+                                    <li><span class="bullet bullet-purple"></span>Gestão de Projetos 📋</li>
+                                    <li><span class="bullet bullet-purple"></span>Arquitetura de Software 🏗️</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses" class="courses-section">
+            <div class="section-bg-elements">
+                <span class="bg-emoji top-left">📚</span>
+                <span class="bg-emoji top-right">🏆</span>
+                <span class="bg-emoji bottom-left">🎯</span>
+                <span class="bg-emoji bottom-right">🌌</span>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">📖</div>
+                    <h2>Cursos</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Sempre explorando novos conhecimentos 🌌</p>
+                </div>
+
+                <div class="current-courses">
+                    <h3><span class="icon">🚀</span> Em Andamento</h3>
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <div class="course-header">
+                                <div class="course-icon">🎓</div>
+                                <div class="course-info">
+                                    <h4 class="course-title">CS50's Introduction to Databases with SQL</h4>
+                                    <p class="course-institution">Harvard University</p>
+                                    <div class="course-badges">
+                                        <span class="badge badge-orange-status"><span class="icon">⚡</span> Em Andamento</span>
+                                        <span class="badge badge-purple-outline">Curso Internacional</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-content">
+                                <p class="course-description">
+                                    Curso avançado de Harvard focado em bancos de dados e SQL, cobrindo desde conceitos fundamentais até otimização avançada.
+                                </p>
+                                <h4>Competências:</h4>
+                                <div class="badge-list">
+                                    <span class="badge badge-cyan-light">SQL</span>
+                                    <span class="badge badge-cyan-light">Database Design</span>
+                                    <span class="badge badge-cyan-light">Query Optimization</span>
+                                    <span class="badge badge-cyan-light">Data Modeling</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-header">
+                                <div class="course-icon">🌍</div>
+                                <div class="course-info">
+                                    <h4 class="course-title">Curso de Inglês</h4>
+                                    <p class="course-institution">Escola de Idiomas</p>
+                                    <div class="course-badges">
+                                        <span class="badge badge-orange-status"><span class="icon">⚡</span> Em Andamento</span>
+                                        <span class="badge badge-purple-outline">Desenvolvimento Pessoal</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-content">
+                                <p class="course-description">
+                                    Aprimoramento do inglês para nível avançado, focando em comunicação técnica e profissional.
+                                </p>
+                                <h4>Competências:</h4>
+                                <div class="badge-list">
+                                    <span class="badge badge-cyan-light">English</span>
+                                    <span class="badge badge-cyan-light">Technical Communication</span>
+                                    <span class="badge badge-cyan-light">Business English</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="completed-courses">
+                    <h3><span class="icon">🏆</span> Concluídos</h3>
+                    <div class="completed-courses-grid">
+                        <div class="completed-course-card">
+                            <div class="completed-course-icon">🐍</div>
+                            <span class="badge badge-green-status">2025</span>
+                            <h4 class="completed-course-title">Curso de Python</h4>
+                            <p class="completed-course-institution">Santander</p>
+                            <div class="completed-course-meta">
+                                <span class="badge badge-purple-outline">Programação</span>
+                                <span class="completed-course-duration"><i class="fas fa-clock"></i> 8h</span>
+                            </div>
+                        </div>
+                        <div class="completed-course-card">
+                            <div class="completed-course-icon">🤖</div>
+                            <span class="badge badge-green-status">2025</span>
+                            <h4 class="completed-course-title">Curso de IA</h4>
+                            <p class="completed-course-institution">Santander</p>
+                            <div class="completed-course-meta">
+                                <span class="badge badge-purple-outline">Inteligência Artificial</span>
+                                <span class="completed-course-duration"><i class="fas fa-clock"></i> 8h</span>
+                            </div>
+                        </div>
+                        <div class="completed-course-card">
+                            <div class="completed-course-icon">📚</div>
+                            <span class="badge badge-green-status">2024</span>
+                            <h4 class="completed-course-title">Curso de Python</h4>
+                            <p class="completed-course-institution">UNIP</p>
+                            <div class="completed-course-meta">
+                                <span class="badge badge-purple-outline">Programação</span>
+                                <span class="completed-course-duration"><i class="fas fa-clock"></i> N/A</span>
+                            </div>
+                        </div>
+                        <div class="completed-course-card">
+                            <div class="completed-course-icon">📊</div>
+                            <span class="badge badge-green-status">2024</span>
+                            <h4 class="completed-course-title">Power BI</h4>
+                            <p class="completed-course-institution">UNIP</p>
+                            <div class="completed-course-meta">
+                                <span class="badge badge-purple-outline">Business Intelligence</span>
+                                <span class="completed-course-duration"><i class="fas fa-clock"></i> 40h</span>
+                            </div>
+                        </div>
+                        <div class="completed-course-card">
+                            <div class="completed-course-icon">⚡</div>
+                            <span class="badge badge-green-status">2024</span>
+                            <h4 class="course-title">PL-900 (Microsoft Power Platform)</h4>
+                            <p class="course-institution">UNIP</p>
+                            <div class="completed-course-meta">
+                                <span class="badge badge-purple-outline">Microsoft Certification</span>
+                                <span class="completed-course-duration"><i class="fas fa-clock"></i> 40h</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="call-to-action-card">
+                    <div class="cta-icon">🚀</div>
+                    <h3>Aprendizado Contínuo</h3>
+                    <p>
+                        Estou sempre em busca de novos conhecimentos e certificações para aprimorar minhas habilidades e
+                        agregar ainda mais valor aos projetos. A evolução é constante! ⭐
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="section-bg-elements">
+                <span class="bg-emoji top-left">📞</span>
+                <span class="bg-emoji top-right">💌</span>
+                <span class="bg-emoji bottom-left">🛸</span>
+                <span class="bg-emoji bottom-right">🌌</span>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        🚀<span class="ping-icon">📡</span>
+                    </div>
+                    <h2>Contato</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        Vamos conectar e criar algo extraordinário juntos! 🌌
+                    </p>
+                </div>
+
+                <div class="contact-info-grid">
+                    <h3><span class="icon">📡</span> Informações</h3>
+                    <div class="contact-items">
+                        <div class="contact-item-card">
+                            <div class="contact-item-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>liragustavo718@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item-card">
+                            <div class="contact-item-icon">📱</div>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>+55 (15) 99649-9604</p>
+                            </div>
+                        </div>
+                        <div class="contact-item-card">
+                            <div class="contact-item-icon">🌍</div>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>Sorocaba, SP - Brasil</p>
+                            </div>
+                        </div>
+                        <div class="contact-item-card">
+                            <div class="contact-item-icon">💼</div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/gustavo-matias</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Gustavo Matias. Todos os direitos reservados. 🌌</p>
+            <div class="footer-made-with">
+                <span>Feito com</span>
+                <span class="heart-icon">❤️</span>
+                <span>e</span>
+                <span class="code-icon">💻</span>
+                <span>por Gustavo Matias</span>
+                <span class="rocket-icon">🚀</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #0a0a0f; /* space-dark */
+  --card-background: rgba(10, 10, 15, 0.5); /* space-dark/50 */
+  --darker-background: rgba(10, 10, 15, 0.7); /* space-dark/70 */
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: #ffffff;
+  line-height: 1.6;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Global styles */
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply text-white mb-4;
+}
+
+a {
+  @apply text-cyan-400 no-underline transition-colors duration-300;
+}
+
+a:hover {
+  @apply text-purple-400;
+}
+
+section {
+  @apply py-20 relative z-10 overflow-hidden;
+}
+
+/* Section Background Elements (Emojis/Divs) */
+.section-bg-elements {
+  @apply absolute inset-0 overflow-hidden opacity-15 z-0;
+}
+
+.section-bg-elements .bg-emoji {
+  @apply absolute text-8xl opacity-10 animate-pulse;
+}
+
+.section-bg-elements .bg-emoji.top-left {
+  @apply top-10 left-10 text-7xl;
+  animation-delay: 0s;
+}
+.section-bg-elements .bg-emoji.top-right {
+  @apply top-10 right-1/4 text-8xl;
+  animation-delay: 0.5s;
+}
+.section-bg-elements .bg-emoji.bottom-left {
+  @apply bottom-40 left-10 text-7xl;
+  animation-delay: 1s;
+}
+.section-bg-elements .bg-emoji.bottom-right {
+  @apply bottom-10 right-10 text-5xl;
+  animation-delay: 1.5s;
+}
+.section-bg-elements .bg-emoji.center {
+  @apply top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-9xl animate-spin-slow;
+  animation-delay: 2s;
+}
+
+/* Section Header */
+.section-header {
+  @apply text-center mb-16;
+}
+
+.section-header .section-icon {
+  @apply flex justify-center mb-6 text-6xl animate-pulse;
+}
+
+.section-header h2 {
+  @apply text-4xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent;
+}
+
+.section-header .section-divider {
+  @apply w-20 h-1 bg-gradient-to-r from-cyan-400 to-purple-400 mx-auto mb-8;
+}
+
+.section-header .section-description {
+  @apply text-gray-400 text-lg max-w-2xl mx-auto;
+}
+
+/* Badges */
+.badge {
+  @apply px-2.5 py-1 rounded-full text-xs font-semibold border;
+}
+
+.badge-purple {
+  @apply bg-purple-400/20 text-purple-400 border-purple-400/30;
+}
+.badge-blue {
+  @apply bg-blue-400/20 text-blue-400 border-blue-400/30;
+}
+.badge-orange {
+  @apply bg-orange-400/20 text-orange-400 border-orange-400/30;
+}
+.badge-yellow {
+  @apply bg-yellow-400/20 text-yellow-400 border-yellow-400/30;
+}
+.badge-red {
+  @apply bg-red-400/20 text-red-400 border-red-400/30;
+}
+.badge-teal {
+  @apply bg-teal-400/20 text-teal-400 border-teal-400/30;
+}
+.badge-white {
+  @apply bg-white/20 text-white border-white/30;
+}
+.badge-orange-dark {
+  @apply bg-orange-600/20 text-orange-600 border-orange-600/30;
+}
+.badge-blue-light {
+  @apply bg-blue-400/20 text-blue-400/80 border-blue-400/30;
+}
+.badge-blue-light:hover {
+  @apply bg-blue-400/30;
+}
+.badge-green {
+  @apply bg-green-400/20 text-green-400 border-green-400;
+}
+.badge-green-check {
+  @apply bg-green-400/20 text-green-400 border-green-400/30 inline-flex items-center gap-1;
+}
+.badge-cyan-purple {
+  @apply bg-gradient-to-r from-cyan-400/20 to-purple-400/20 text-cyan-400/80 border-cyan-400/30;
+}
+.badge-cyan-purple:hover {
+  @apply from-cyan-400/30 to-purple-400/30;
+}
+.badge-orange-status {
+  @apply bg-orange-400/20 text-orange-400 border-orange-400/30;
+}
+.badge-purple-outline {
+  @apply border border-purple-400 text-purple-400 bg-transparent;
+}
+.badge-green-status {
+  @apply bg-green-400/20 text-green-400 border-green-400/30 text-xs float-right -mt-2 -mr-2;
+}
+.badge-cyan-light {
+  @apply bg-cyan-400/20 text-cyan-400 border-cyan-400/30;
+}
+
+/* Ping icon for contact */
+.ping-icon {
+  @apply absolute -top-2 -right-2 text-2xl animate-ping;
+}
+
+/* Custom bullet points for education */
+.education-content ul li .bullet {
+  @apply block w-2 h-2 rounded-full mt-2 flex-shrink-0;
+}
+
+.education-content ul li .bullet-cyan {
+  @apply bg-cyan-400;
+}
+
+.education-content ul li .bullet-purple {
+  @apply bg-purple-400;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+  .hero-role {
+    font-size: 1.25rem;
+  }
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .section-header h2 {
+    font-size: 2rem;
+  }
+  .section-header .section-description {
+    font-size: 1rem;
+  }
+
+  .about-content {
+    @apply flex-col text-center;
+  }
+  .about-avatar {
+    @apply mx-auto;
+  }
+  .about-text {
+    @apply text-center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-role {
+    font-size: 1rem;
+  }
+  .hero-description {
+    font-size: 0.875rem;
+  }
+  .social-links a {
+    font-size: 1.8rem;
+  }
+  .about-avatar {
+    width: 150px;
+    height: 150px;
+  }
+}
